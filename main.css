@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3 {
+  font-family: 'Antonio', sans-serif;
+  font-weight: normal;
+}
+
+body, input, textarea, p {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e5e5e5;
+}
+
+header {
+  padding: 16px 0;
+  background-color: #14213d;
+  color: #e5e5e5;
+}
+
+header a{
+  text-decoration: none;
+  font-size: 36px;
+  color: #e5e5e5;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 18px;
+  letter-spacing: 0.2rem;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: #e5e5e5;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+section {
+  padding: 24px 0;
+  color: #14213d;
+
+}
+
+section h2 {
+  margin-bottom: 16px;
+  color: #14213d;
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+.store-front {
+  margin-right: 32px;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+.social-links img {
+  height: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #14213d;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+section h3 {
+  margin-bottom: 16px;
+}
+
+form button {
+  background-color: #fca311;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #c59649;
+}
+
+input:focus, textarea:focus {
+  outline-color: #fca311;
+}
+
+footer {
+  background-color: #fca311;
+  padding: 16px 0;
+  text-align: center;
+}
+
+footer p {
+  background-color: #fca311;
+  color: #ecf0f1;
+}
